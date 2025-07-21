@@ -5,7 +5,7 @@ Created by **Piyush** as a project for learning DOM in JS.
 A lightweight, responsive calculator using **HTML**, **Tailwind CSS**, and vanilla **JavaScript**, showcasing basic DOM manipulation: query selectors, event listeners, and updating `textContent`. Supports addition, subtraction, multiplication, division, and clear/reset—without external JS libraries.
 
 ### 🌐 Live Demo:
-[Click Here]([www.google.com](https://piyushcalculator.netlify.app/))
+[Click here](https://piyushcalculator.netlify.app/)
 
 ### 🚀 Quick Start (To try this on your local machine)
 
