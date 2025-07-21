@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+}
+
+
+@layer components{
+    .btn-o{
+        @apply bg-amber-400 w-10 h-10 rounded-md border-b-2 border-amber-800 active:bg-amber-300 cursor-pointer transition-all duration-200 text-white flex justify-center items-center select-none 
+    }
+    .btn-n{
+        @apply bg-slate-400 w-10 h-10 rounded-md border-b-2 border-slate-600 active:bg-slate-300 cursor-pointer transition-all duration-200 text-white flex justify-center items-center select-none 
+    }
+    .btn{
+        @apply bg-red-500 w-10 h-10 rounded-md border-b-2 border-red-800 active:bg-red-400 cursor-pointer transition-all duration-200 text-white flex justify-center items-center select-none 
+    }
+    .Calc-row{
+        @apply flex justify-center bg-slate-700 rounded-b-md w-full gap-1 p-1
+    }
+    .input{
+        @apply w-32 h-10 ring-1 bg-slate-800 ring-slate-500 rounded-md text-right text-white focus:outline-none p-2 
+    }
+}

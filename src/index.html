@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator</title>
+        <link
+            rel="shortcut icon"
+            href="images/calculator.png"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="output.css" />
+        <link rel="icon" href="data:," />
+    </head>
+    <body>
+        <div
+            id="main"
+            class="w-screen h-screen bg-slate-800 flex justify-center items-center"
+        >
+            <div id="container">
+                <h1
+                    class="text-white text-center my-4 font-inter select-none cursor-text"
+                >
+                    Welcome to my Calculator
+                </h1>
+                <div
+                    class="Calc-row rounded-none h-4 rounded-t-md flex justify-start items-center"
+                >
+                    <div
+                        class="my-2 w-2 h-2 rounded-full bg-red-500 cursor-pointer"
+                    ></div>
+                    <div
+                        class="my-2 w-2 h-2 rounded-full bg-amber-500 cursor-pointer"
+                    ></div>
+                    <div
+                        class="my-2 w-2 h-2 rounded-full bg-green-500 cursor-pointer"
+                    ></div>
+                </div>
+                <div
+                    class="flex pt-2 pr-2 justify-between Calc-row rounded-none"
+                >
+                    <div id="clear" class="btn mx-2">AC</div>
+                    <input readonly type="text" class="input" />
+                </div>
+                <div id="row1" class="Calc-row rounded-none">
+                    <div id="once_clear" class="btn">C</div>
+                    <div class="btn-n">0</div>
+                    <div class="btn-o">÷</div>
+                    <div class="btn-o">&times;</div>
+                </div>
+                <div id="row2" class="Calc-row rounded-none">
+                    <div class="btn-n">7</div>
+                    <div class="btn-n">8</div>
+                    <div class="btn-n">9</div>
+                    <div class="btn-o">-</div>
+                </div>
+                <div id="row3" class="Calc-row rounded-none">
+                    <div class="btn-n">4</div>
+                    <div class="btn-n">5</div>
+                    <div class="btn-n">6</div>
+                    <div id="equal" class="btn-o">+</div>
+                </div>
+                <div id="row4" class="Calc-row pb-2">
+                    <div class="btn-n">1</div>
+                    <div class="btn-n">2</div>
+                    <div class="btn-n">3</div>
+                    <div class="btn-o">=</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
